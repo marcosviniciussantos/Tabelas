@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Exercicio de agrupamento de colunas</title>
+        <meta charset="UTF-8">       
+    </head>
+    <body>
+        <h1>Carros</h1>
+        <table>
+            <colgroup>
+                <col span="2" style="background-color: gray">
+                <col style="background-color: yellow">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>Marca</th>
+                     <th>Modelo</th>
+                      <th>Ano</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Última atualização: 06/2012</td>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Toyota</td>
+                    <td>Corola</td>
+                    <td>2010</td>                    
+                </tr>
+                <tr>
+                    <td>Camary</td>
+                    <td>2011</td>
+                </tr>
+                <tr>
+                    <td rowspan="3"></td>
+                    <td>Civic</td>
+                    <td>2004</td>
+                </tr>                
+                <tr>
+                    <td>Fit</td>
+                    <td>2012</td>
+                </tr>
+                <tr>
+                    <td>City</td>
+                    <td>2011</td>
+                </tr>
+                
+                <tr>
+                    <td>Mitsubischi</td>
+                    <td>Lancer</td>
+                    <td>2012</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
